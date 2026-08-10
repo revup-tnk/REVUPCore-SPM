@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "REVUPCore",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.3/REVUP.zip",
-            checksum: "91af1fb47cde49d520a3108bc626de4cac814f4113796fa34ca3f7a4c6b62d07"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.4/REVUP.zip",
+            checksum: "df71ddf0aefcea4bb67e80c809535f619346551c41e285090f88bb079f10b9bb"
         ),
     ]
 )
