@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "REVUPCore",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "REVUPCore",
@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "REVUPCore",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.12/REVUP.zip",
-            checksum: "354fb87bf13f6b7e78280feabcf490c08c85c96084e6b9a958d3b28c8182e383"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.2.0/REVUP.zip",
+            checksum: "fa5fc8f270dad9c207569d79b80ee5e73b8af2b2fa58a6a6b2cffdc2c224ecc3"
         ),
     ]
 )
